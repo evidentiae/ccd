@@ -1,0 +1,13 @@
+;
+version="T20160311";
+;
+; CCD Switch Table test
+;
+; syntax:
+; redirect to "networkName" groups = [all | ["grp1",...]] and carriers = [all | "carrier1",...]
+; do not redirect groups = [all | ["grp1",...]] and carriers = [all | "carrier1",...]
+;
+; "do not redirect" has priority over "redirect"
+;
+redirect to "NETPLUS" groups = all and carriers = all
+
